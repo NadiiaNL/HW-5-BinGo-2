@@ -1,0 +1,47 @@
+body, html{
+    font-size:12px;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    background: #fff;
+}
+.container{
+    max-width: 1160px;
+    width:100%;
+    margin:0 auto;
+    background: #FAFAFA;
+}
+
+/*=====Header
+===================*/
+.header-inner{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:40px 100px 45px;
+}
+.header-logo{
+    width:65px; 
+    height:24px;
+}
+.header-nav{
+    display:flex;
+    justify-content: space-between;
+}
+.header-nav-link{
+    margin-left:80px;
+    font-size:14px;
+    line-height:1.2;
+    font-weight:700;
+    color:#151F32;
+    text-decoration:none;
+}
+.header-nav-link:first-child{
+    margin-left:0;
+}
+.header-registration{
+    display:flex;
+    align-items:center;
+}
+.header-cart{
+    margin-left:43px;
+}
