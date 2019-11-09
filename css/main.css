@@ -22,10 +22,13 @@ body, html{
 .header-logo{
     width:65px; 
     height:24px;
+    margin-right:15px;
 }
 .header-nav{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    margin-right:15px;
+    margin-left:15px;
 }
 .header-nav-link{
     margin-left:80px;
@@ -44,4 +47,121 @@ body, html{
 }
 .header-cart{
     margin-left:43px;
+}
+/*=====Intro section
+===================*/
+.intro-inner{
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.title-dark-blue{
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 1.2;
+    color:#032F48;
+}
+.line{
+    background: #032F48;
+    height:7px;
+}
+.intro-line{
+    width:82px;
+    margin-top:21px;
+}
+.intro-left-desc{
+    width:194px;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 1.9;
+    color:#344159;
+    margin-top:auto;
+}
+.intro-left{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    box-sizing:border-box;
+    margin-right:30px;
+    padding-left:168px;
+    padding-bottom:43px;
+    padding-top:56px;
+}
+.intro-right{
+    width: 50%;
+    height: 492px;
+    position:relative;
+    box-sizing:border-box;
+    padding:90px 76px;
+    margin-left:15px;
+    background: #032F48 url("../img/intro-bg-rectangle.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.title-white{
+    color:#fff;
+    font-weight:700;
+    line-height:1.2;
+    margin-left:3px;
+}
+.intro-right-title{
+    font-size:28px;
+    margin-bottom:25px;
+}
+.desc-pink{
+    color: #FCD3AC;
+    font-size:12px;
+    line-height:1.6;
+}
+.intro-right-desc{
+    width:190px;
+    max-height:75px;
+    margin-bottom:58px;
+    overflow:hidden;
+}
+/*Arrows*/
+.arrows{
+    display:flex;
+    align-items: center;
+}
+.arrow-left{
+    width:16px;
+    height:12px;
+    margin-right:28px;
+}
+.arrow-right{
+    width:24px;
+    height:18px;
+}
+/*Button*/
+.intro-right-btn{
+    width:192px;
+    height:48px;
+    padding-left:51px;
+    background:#032F48 url('../img/equalizer.svg');
+    background-repeat:no-repeat;
+    background-position:18px 18px;
+    position:absolute;
+    bottom:47px;
+    left:-51px;
+}
+.btn-white{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-align:center;
+    text-decoration: none;
+    padding:14px 28px;
+    background: #fff;
+    color:#151F32;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 1;
+    box-sizing:border-box;
+    box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+    cursor:pointer;
+}
+.btn-white:hover{
+    background: #000;
 }
