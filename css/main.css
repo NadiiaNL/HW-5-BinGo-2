@@ -140,9 +140,10 @@ body, html{
 }
 /*Button*/
 .intro-right-btn{
-    width:192px;
+    width:184px;
     height:48px;
     padding-left:51px;
+    box-sizing:border-box;
     background:#032F48 url('../img/equalizer.svg');
     background-repeat:no-repeat;
     background-position:18px 18px;
@@ -156,7 +157,7 @@ body, html{
     height:100%;
     text-align:center;
     text-decoration: none;
-    padding:14px 28px;
+    padding:14px 5px;
     background: #fff;
     font-weight: 900;
     font-size: 17px;
