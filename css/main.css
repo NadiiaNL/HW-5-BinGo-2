@@ -31,12 +31,27 @@ body, html{
     margin-left:15px;
 }
 .header-nav-link{
+    position:relative;
     margin-left:80px;
     font-size:14px;
     line-height:1.2;
     font-weight:700;
     color:#151F32;
     text-decoration:none;
+}
+.header-nav-link:before{
+    content:"";
+    position:absolute;
+    bottom:-3px;;
+    right:0;
+    width:0%;
+    height:1px;
+    background: #151F32;
+    transition:0.2s; 
+}
+.header-nav-link:hover:before{
+    width:100%;
+    left:0;
 }
 .header-nav-link:first-child{
     margin-left:0;
