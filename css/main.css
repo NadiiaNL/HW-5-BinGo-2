@@ -25,6 +25,7 @@ body, html{
     margin-right:15px;
 }
 .header-nav{
+    width:calc(50% - 30px);
     display:flex;
     justify-content:space-between;
     margin-right:15px;
@@ -32,7 +33,7 @@ body, html{
 }
 .header-nav-link{
     position:relative;
-    margin-left:80px;
+    margin-left:16.6px;
     font-size:14px;
     line-height:1.2;
     font-weight:700;
@@ -229,4 +230,22 @@ body, html{
     line-height: 1.2;
     color:#c2c2c2;
     text-decoration:none;
+}
+
+/*============Media quaries
+=============================*/
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .header-inner{
+        padding-left:50px;
+        padding-right:50px;  
+    }
+    .intro-left{
+        padding-left:50px;
+    }
+    .menu-bottom-inner{
+        padding-left:50px;
+        padding-right:50px;
+    }
 }
