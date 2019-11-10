@@ -102,7 +102,7 @@ body, html{
     display:flex;
     flex-direction:column;
     box-sizing:border-box;
-    margin-right:30px;
+    margin-right:15px;
     padding-left:168px;
     padding-bottom:43px;
     padding-top:56px;
@@ -116,7 +116,7 @@ body, html{
     background-position:center;
     position:absolute;
     bottom:47px;
-    right:-51px;
+    right:-30px;
 }
 .intro-right{
     width: 50%;
@@ -125,10 +125,34 @@ body, html{
     box-sizing:border-box;
     padding:90px 76px;
     margin-left:15px;
-    background: #032F48 url("../img/intro-bg-rectangle.jpg");
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size:cover;
+    overflow:hidden;
+    background: #032F48; /*url("../img/intro-bg-rectangle.jpg");*/
+}
+.triangle-yellow{
+    width: 221px;
+    height: 221px;
+    background: #F9BA51;
+    position:absolute;
+    transform:rotate(-45deg);
+    bottom:-110.5px;
+    left:-113px;
+}
+.triangle-orange{
+    width: 584px;
+    height: 584px;
+    background: #F1552C;
+    position:absolute;
+    transform:rotate(45deg);
+    bottom:-292px;
+    right:-292px;
+}
+.square-blue{
+    width: 207px;
+    height: 207px;
+    background:#78C9C0;
+    position:absolute;
+    bottom:0;
+    right:0;
 }
 .title-white{
     color:#fff;
@@ -165,20 +189,8 @@ body, html{
     width:24px;
     height:18px;
 }
+/*/////Arrows*/
 /*Button*/
-/*
-.intro-right-btn{
-    width:133px;
-    height:48px;
-    box-sizing:border-box;
-    background:#032F48 url('../img/equalizer.svg');
-    background-repeat:no-repeat;
-    background-position:18px 18px;
-    position:absolute;
-    bottom:47px;
-    left:-51px;
-}
-*/
 .btn-white{
     display:inline-block;
     width:133px;
@@ -197,6 +209,7 @@ body, html{
     position:absolute;
     bottom:47px;
     left:0;
+    z-index:4;
 }
 /*=============Menu-bottom
 ===================*/
