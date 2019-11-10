@@ -6,6 +6,7 @@ body, html{
 }
 .container{
     max-width: 1160px;
+/*    min-width:996px;*/
     width:100%;
     margin:0 auto;
     background: #FAFAFA;
@@ -316,6 +317,9 @@ and (max-device-width : 767px) {
     .menu-bottom-inner{
         padding-left:10px;
         padding-right:10px;
+    }
+    .menu-bottom-link{
+        font-size:15px;
     }
 
 }
