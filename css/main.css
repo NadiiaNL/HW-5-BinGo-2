@@ -120,7 +120,7 @@ body, html{
 }
 .intro-right{
     width: 50%;
-    height: 492px;
+    height:492px;
     position:relative;
     box-sizing:border-box;
     padding:90px 76px;
@@ -129,30 +129,33 @@ body, html{
     background: #032F48; /*url("../img/intro-bg-rectangle.jpg");*/
 }
 .triangle-yellow{
-    width: 221px;
-    height: 221px;
+    width: 39.12%;
+    height:44.92%;
     background: #F9BA51;
     position:absolute;
     transform:rotate(-45deg);
-    bottom:-110.5px;
-    left:-113px;
+    bottom:-22.46%;
+    left:-20%;
 }
 .triangle-orange{
-    width: 584px;
-    height: 584px;
+    width: 103.36%;
+    height: 118.7%;
     background: #F1552C;
     position:absolute;
     transform:rotate(45deg);
-    bottom:-292px;
-    right:-292px;
+    bottom:-59.35%;
+    right:-51.68%;
 }
 .square-blue{
-    width: 207px;
-    height: 207px;
+    width: 35.45%;
+/*    height: 35.45%;*/
     background:#78C9C0;
     position:absolute;
-    bottom:0;
-    right:0;
+    transform:rotate(-45deg);
+    bottom:32.1%;
+    top:32.18%;
+    left:7.4%;
+    z-index:7;
 }
 .title-white{
     color:#fff;
