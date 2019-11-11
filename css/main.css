@@ -290,7 +290,7 @@ and (max-device-width : 1024px) {
         padding:10px; 
     }
  .intro-right{
-          height:369px;  
+          height:auto;  
         }
     .menu-bottom-inner{
         padding-left:20px;
@@ -302,7 +302,7 @@ and (max-device-width : 1024px) {
         }
     .intro-left,.intro-right{
         padding:20px;
-        width:60%;
+        width:80%;
         margin:0;
     }
      .icon-equalizer{
@@ -330,6 +330,9 @@ and (max-device-width : 320px) {
     }
     .intro-inner{
         flex-wrap:wrap;
+    }
+    .intro-right{
+        height:auto;
     }
     .intro-left,.intro-right{
         width:100%;
