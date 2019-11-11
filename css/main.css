@@ -3,6 +3,7 @@ body, html{
     font-size:12px;
     font-family: 'Lato', sans-serif;
     font-weight:400;
+    line-height:1.2;
     background: #fff;
 }
 .container{
@@ -38,8 +39,8 @@ body, html{
     position:relative;
     margin-left:16.6px;
     font-size:14px;
-    line-height:1.2;
     font-weight:700;
+    line-height: 1.2;
     color:#151F32;
     text-decoration:none;
 }
@@ -109,7 +110,7 @@ body, html{
 .title-dark-blue{
     font-weight: 900;
     font-size: 110px;
-    line-height: 1.2;
+    line-height:1.2;
     color:#032F48;
 }
 .intro-left-title{
@@ -152,7 +153,7 @@ body, html{
     background-repeat:no-repeat;
     background-position:center;
     position:absolute;
-    bottom:47px;
+    bottom:9.55%;
     right:-30px;
 }
 .intro-right{
@@ -245,7 +246,7 @@ body, html{
     box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.20);
     cursor:pointer;
     position:absolute;
-    bottom:47px;
+    bottom:9.55%;
     left:0;
     z-index:4;
 }
@@ -288,38 +289,40 @@ and (max-device-width : 1024px) {
 .header-inner{
         padding:10px; 
     }
-    .intro-left{
-        padding-left:20px;
-        padding-top:10px;
-    }
+ .intro-right{
+          height:369px;  
+        }
     .menu-bottom-inner{
         padding-left:20px;
         padding-right:20px;
     }
-        .intro-inner{
+    .intro-inner{
             flex-direction:column;
             align-items:center;
         }
     .intro-left,.intro-right{
-        width:75%;
+        padding:20px;
+        width:60%;
         margin:0;
-}
- .icon-equalizer{
+    }
+     .icon-equalizer{
         right:0;
-        }
+    }
         .title-dark-blue{
         margin-top:15px;
         font-size:50px;
-/*
     }
     .header-nav{
         display:none;
     }
     .dropdown-block{
         display:block;
-   } 
-*/
+    } 
+     .menu-bottom-link{
+        font-size:15px;
+    }
 }
+
 @media only screen 
 and (max-device-width : 320px) {
     .header-inner{
@@ -332,8 +335,6 @@ and (max-device-width : 320px) {
         width:100%;
         margin-left:0;
         margin-right:0;
-    }
-    .intro-left{
         padding:20px;
     }
     .title-dark-blue{
