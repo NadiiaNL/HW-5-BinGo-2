@@ -48,14 +48,14 @@ body, html{
     content:"";
     position:absolute;
     bottom:-3px;;
-    right:0;
+    right:50%;
     width:0%;
     height:1px;
     background: #151F32;
     transition:0.2s; 
 }
 .header-nav-link:hover:before{
-    width:100%;
+    width:50%;
     left:0;
 }
 .header-nav-link:first-child{
