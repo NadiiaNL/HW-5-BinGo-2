@@ -289,9 +289,6 @@ and (max-device-width : 1024px) {
 .header-inner{
         padding:10px; 
     }
- .intro-right{
-          height:auto;  
-        }
     .menu-bottom-inner{
         padding-left:20px;
         padding-right:20px;
@@ -330,9 +327,6 @@ and (max-device-width : 320px) {
     }
     .intro-inner{
         flex-wrap:wrap;
-    }
-    .intro-right{
-        height:auto;
     }
     .intro-left,.intro-right{
         width:100%;
