@@ -219,14 +219,23 @@ body, html{
     display:flex;
     align-items: center;
 }
-.arrow-left{
+.arrow-right{
+    margin-left:28px;
+    transform:rotate(180deg);
+ 
+}
+.arrow-right,.arrow-left{
+    transition:0.2s;
     width:16px;
     height:12px;
-    margin-right:28px;
 }
-.arrow-right{
-    width:24px;
-    height:18px;
+.arrow-right:hover{
+    transform:rotate(180deg) scale(1.67);
+    fill:#FCD3AC;
+}
+.arrow-left:hover{
+    transform:scale(1.67);
+    fill:#FCD3AC;
 }
 /*/////Arrows*/
 /*Button*/
