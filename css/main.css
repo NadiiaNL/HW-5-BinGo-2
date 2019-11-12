@@ -284,14 +284,24 @@ body, html{
 =======================*/
 /*============Past section
 =======================*/
+.past{
+    margin-top:180px;
+    margin-bottom:166px;
+}
 .past-inner{
     display:flex;
     flex-wrap:wrap;
     box-sizing:border-box;
     font-size:28px;
 }
+.container-white{
+    background: #fff;
+    padding-left:168px;
+    padding-right:100px;
+    margin:0 auto;
+}
 .past-left{
-    margin-right:76px;
+    margin-right:61px;
     display:flex;
     flex-wrap:wrap;
     width:15em;
@@ -307,7 +317,7 @@ body, html{
 .square-transparent{
     position:relative;
 }
-.past-line{
+.past-left-line{
     width:4em;
     position:absolute;
     top:50%;
@@ -343,10 +353,14 @@ body, html{
 /*==========Past-right part
 =========================*/
 .past-right{
-    width:15em;
+/*   width:15em;*/
+    flex-grow:1;
+    padding:5px 15px;
+    position:relative;
 }
 .past-right-title{
     position:relative;
+    margin-left:-3px;
     margin-bottom:33px;
 }
 .past-right-title:before{
@@ -362,8 +376,9 @@ body, html{
 .past-right-desc{
     color:#151F32;
     font-size:0.43em;
-    line-height:1.58;
-    
+    line-height:1.6;
+    max-width:190px;
+    margin-bottom:38px;  
 }
 
 .btn-blue{
@@ -373,7 +388,12 @@ body, html{
     background: #151F32;
     padding:14px 48px 15px 49px;
 }
-
+.past-right-line{
+    width:60px;
+    position:absolute;
+    bottom:25%;
+    right:-100px;
+}
 
 
 
