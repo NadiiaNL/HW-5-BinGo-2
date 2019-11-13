@@ -412,6 +412,22 @@ body, html{
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
+    margin-left:-22px;
+    position:relative;
+    z-index:2;
+}
+.new-left-line{
+    position:absolute;
+}
+.line-bottom{
+    width:22px;
+    bottom:25%;
+    right:-5%;
+}
+.line-top{
+    width:48.5px;
+    top:23.66%;
+    left:-11%;
 }
 .statistic{
     display:flex;
