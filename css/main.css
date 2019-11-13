@@ -402,6 +402,9 @@ body, html{
 }
 /*============New section
 =========================*/
+.new-inner{
+    display:flex;
+}
 .new-left{
     width:15.79em;
     height:15.7em;
@@ -409,14 +412,17 @@ body, html{
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
-
 }
 .statistic{
+    display:flex;
+    flex-direction:column;
     width:12.93em;
     height:11.61em;
     background: #fff;
     padding:35px 30px 5px;
     box-sizing:border-box;
+    margin-top:2.1em;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 .new-title{
     font-weight: 900;
@@ -427,6 +433,8 @@ body, html{
 }
 .new-desc{
     margin-bottom:21px;
+    width:178px;
+    font-size:12px;
 }
 .turnover{
     display:flex;
@@ -458,13 +466,54 @@ body, html{
 .line-expense{
     background: #E75A31;
 }
+.diagram-block{
+    position:relative;
+    margin-top:auto;
+}
 .diagram{
     margin-left:6px;
 }
-
-
-
-
+.value{
+    position:absolute;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1.3;
+    color:#151F32;
+    transform:rotate(-90deg);
+}
+.max-value{
+    top:-14px;
+    right:75.5px;
+}
+.med-value{
+    left:61.5px;
+    bottom:37px;
+}
+.new-right{
+    padding-top:0;
+    position:relative;
+}
+.new-right-title{
+    color: #151F32;
+}
+.new-desc-first{
+    margin-bottom:19px;
+}
+.new-desc-second{
+    margin-bottom:0;
+    max-height:50px;
+    height:45px;
+    overflow:hidden;
+}
+.new-right-line{
+    position:absolute;
+    width:112px;
+    bottom:25%;
+    left:0px;
+}
+.btn-black{
+    background: #151F32;
+}
 
 
 
