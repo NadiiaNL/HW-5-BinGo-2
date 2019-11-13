@@ -199,11 +199,12 @@ body, html{
     color:#fff;
     font-weight:700;
     line-height:1.2;
-    margin-left:3px;
+    font-size:28px;
+
 }
 .intro-right-title{
-    font-size:28px;
     margin-bottom:25px;
+    margin-left:3px;
 }
 .desc-pink{
     color: #FCD3AC;
@@ -241,21 +242,23 @@ body, html{
 }
 /*/////Arrows*/
 /*Button*/
-.btn-white{
+.btn{
     display:inline-block;
-    width:133px;
-    height:48px;
     text-align:center;
     text-decoration: none;
-    padding:14px 5px;
-    background: #fff;
+    box-sizing:border-box;
+    cursor:pointer;
     font-weight: 900;
     font-size: 17px;
     line-height: 1.2;
+}
+.btn-white{
+    width:133px;
+    height:48px;
+    padding:14px 5px;
+    background: #fff;
     color:#151F32;
-    box-sizing:border-box;
     box-shadow:0px 0px 20px 0px rgba(0, 0, 0, 0.20);
-    cursor:pointer;
     position:absolute;
     bottom:9.55%;
     left:0;
@@ -277,6 +280,142 @@ body, html{
     color:#c2c2c2;
     text-decoration:none;
 }
+/*============Main
+=======================*/
+/*============Past section
+=======================*/
+.past{
+    margin-top:180px;
+    margin-bottom:166px;
+}
+.past-inner{
+    display:flex;
+    flex-wrap:wrap;
+    box-sizing:border-box;
+    font-size:28px;
+}
+.container-white{
+    background: #fff;
+    padding-left:168px;
+    padding-right:100px;
+    margin:0 auto;
+}
+.past-left{
+    margin-right:61px;
+    display:flex;
+    flex-wrap:wrap;
+    width:15em;
+}
+.past-left-square{
+    position:relative;
+    width:7.5em;
+    height:7.5em;
+    padding:1.29em 0.64em;
+/*    overflow: hidden;*/
+    box-sizing:border-box;
+}
+.square-transparent{
+    position:relative;
+}
+.past-left-line{
+    width:4em;
+    position:absolute;
+    top:50%;
+    right:0;
+}
+.square-01{
+    background: #F9BA51;
+}
+.square-02{
+    background: #78C9C0;
+    padding-left:1.07em;
+}
+.square-03{
+    background: #F1552C;
+}
+.past-number{
+    position:absolute;
+    bottom:-13.34%;
+    font-size:3.43em;
+    color:#fff;
+    font-weight:900;
+    opacity:0.5;
+}
+.number-01{
+    right:-6%;
+}
+.number-02{
+    right:-2%;
+}
+.number-03{
+    right:-5%;
+}
+/*==========Past-right part
+=========================*/
+.past-right{
+/*   width:15em;*/
+    flex-grow:1;
+    padding:5px 15px;
+    position:relative;
+}
+.past-right-title{
+    position:relative;
+    margin-left:-3px;
+    margin-bottom:33px;
+}
+.past-right-title:before{
+    display:block;
+    content:'branding projects';
+    color:#DDDFE0;
+    font-size:0.16em;
+    letter-spacing: 2px;
+    position:absolute;
+    left:29px;
+    top:109px;
+}
+.past-right-desc{
+    color:#151F32;
+    font-size:0.43em;
+    line-height:1.6;
+    max-width:190px;
+    margin-bottom:38px;  
+}
+
+.btn-blue{
+    width:139px;
+    height:49px;
+    color:#fff;
+    background: #151F32;
+    padding:14px 48px 15px 49px;
+}
+.past-right-line{
+    width:60px;
+    position:absolute;
+    bottom:25%;
+    right:-100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*============Media quaries
 =============================*/
