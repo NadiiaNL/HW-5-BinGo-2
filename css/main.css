@@ -284,6 +284,9 @@ body, html{
 =======================*/
 /*============Past section
 =======================*/
+.section-period{
+    font-size:28px;
+}
 .past{
     margin-top:180px;
     margin-bottom:166px;
@@ -292,7 +295,6 @@ body, html{
     display:flex;
     flex-wrap:wrap;
     box-sizing:border-box;
-    font-size:28px;
 }
 .container-white{
     background: #fff;
@@ -300,10 +302,12 @@ body, html{
     padding-right:100px;
     margin:0 auto;
 }
-.past-left{
+.left-block{
     margin-right:61px;
     display:flex;
     flex-wrap:wrap;
+}
+.past-left{
     width:15em;
 }
 .past-left-square{
@@ -352,16 +356,18 @@ body, html{
 }
 /*==========Past-right part
 =========================*/
-.past-right{
-/*   width:15em;*/
+
+.right-block{
     flex-grow:1;
     padding:5px 15px;
     position:relative;
 }
-.past-right-title{
-    position:relative;
+.right-title{
     margin-left:-3px;
     margin-bottom:33px;
+}
+.past-right-title{
+    position:relative;
 }
 .past-right-title:before{
     display:block;
@@ -373,7 +379,7 @@ body, html{
     left:29px;
     top:109px;
 }
-.past-right-desc{
+.right-desc{
     color:#151F32;
     font-size:0.43em;
     line-height:1.6;
@@ -394,6 +400,68 @@ body, html{
     bottom:25%;
     right:-100px;
 }
+/*============New section
+=========================*/
+.new-left{
+    width:15.79em;
+    height:15.7em;
+    background: #78C9BF url('../img/new-sect-bg.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.statistic{
+    width:12.93em;
+    height:11.61em;
+    background: #fff;
+    padding:35px 30px 5px;
+    box-sizing:border-box;
+}
+.new-title{
+    font-weight: 900;
+    font-size: 0.75em;
+    line-height: 1.2;
+    color:#151F32;
+    margin-bottom:14px;
+}
+.new-desc{
+    margin-bottom:21px;
+}
+.turnover{
+    display:flex;
+    margin-bottom:15px;
+}
+.income{
+    margin-right:57px;
+}
+.quantity{
+    font-weight: 900;
+    font-size: 0.54em;
+    line-height: 1.2;
+    color:#151F32;
+}
+.title{
+    font-weight: 700;
+    font-size: 0.36em;
+    line-height:1.6;
+    color:#919193;
+    margin-bottom:10px;
+}
+.line-turnover{
+    height:2px;
+    width:0.64em;
+}
+.line-income{
+    background: #151F32;
+}
+.line-expense{
+    background: #E75A31;
+}
+.diagram{
+    margin-left:6px;
+}
+
 
 
 
