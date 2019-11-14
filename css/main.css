@@ -402,7 +402,11 @@ body, html{
 }
 /*============New section
 =========================*/
-.new-inner{
+.new, .next{
+    margin-bottom:166px;
+/*    height:100vh;*/
+}
+.new-inner,.next-inner{
     display:flex;
 }
 .new-left{
@@ -530,6 +534,88 @@ body, html{
 .btn-black{
     background: #151F32;
 }
+/*========/New section
+======================*/
+.next-left-block{
+    width:15.11em;
+    height:12.48em;
+    box-sizing:border-box;
+    background:#032F48 url('../img/next-sect-bg.jpg') center center no-repeat;
+    background-size:cover;
+    padding-top:70px;
+    padding-left:30px;
+    padding-bottom:48.76px;
+    position:relative;
+}
+.generation{
+    display:flex;
+    flex-direction:column;
+}
+.generation-title{
+    color:#fff;
+    font-weight: 900;
+    font-size: 0.57em;
+    line-height: 1.2;
+    margin-bottom:21px;
+}
+.generation-desc{
+    width:178px;
+    margin-bottom:31px;
+}
+.icon-play{
+    width:43px;
+    height:43px;
+}
+.generation-arrows{
+    margin-top:auto;
+}
+/*=============Sub-block minimal
+===============================*/
+.sub-block{
+    position:absolute;
+    right:-8.7%;
+    top:53%;
+}
+.minimal-img{
+    width:230px;
+    height:180px;
+    margin-bottom:19px;
+}
+.subtitle{
+    font-size:15px;
+    font-weight:700;
+    color:#000;
+    line-height:1.6;
+}
+.subdesc{
+    font-size:12px;
+    width:175px;
+    color:#151F32;
+    line-height:1.7;
+}
+/*=============/Sub-block minimal
+===============================*/
+/*=============Next right block
+================================*/
+.next-right-block{
+    position:reltive;
+}
+.next-right-title{
+    color:#032F48;
+    margin-bottom:48px;
+}
+.next-right-line{
+    width:112px;
+    background:#151F32;
+}
+.next-right-line{
+    position:absolute;
+    top:0;
+    right:-100px;
+}
+/*=============Next right block
+================================*/
+
 
 
 
