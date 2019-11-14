@@ -604,6 +604,11 @@ body, html{
     color:#032F48;
     margin-bottom:48px;
 }
+.next-right-img{
+    margin-bottom:19px;
+    width:326px;
+    height:180px;
+}
 .next-right-line{
     width:112px;
     background:#151F32;
