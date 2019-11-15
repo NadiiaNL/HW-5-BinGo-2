@@ -269,7 +269,6 @@ body, html{
     padding:49px 100px 34px 168px;
     display:flex;
     justify-content: space-between;
-/*    margin-top:15px;*/
 
 }
 .menu-bottom-link{
@@ -285,10 +284,11 @@ body, html{
 =======================*/
 .section-period{
     font-size:28px;
+    margin-bottom:166px;
 }
 .past{
     margin-top:180px;
-    margin-bottom:166px;
+
 }
 .past-inner{
     display:flex;
@@ -338,17 +338,20 @@ body, html{
 }
 .past-number{
     position:absolute;
-    bottom:-13.34%;
-    font-size:3.43em;
+    bottom:-12.34%;
+    font-size:4.29em;
+    line-height:0.8;
+    margin:0;
+    padding:0;
     color:#fff;
     font-weight:900;
     opacity:0.5;
 }
 .number-01{
-    right:-6%;
+    right:-7%;
 }
 .number-02{
-    right:-2%;
+    right:-5%;
 }
 .number-03{
     right:-5%;
@@ -401,12 +404,15 @@ body, html{
 }
 /*============New section
 =========================*/
+/*
 .new, .next{
     margin-bottom:166px;
-/*    height:100vh;*/
+    height:100vh;
 }
+*/
 .new-inner,.next-inner{
     display:flex;
+    flex-wrap:wrap;
 }
 .new-left{
     width:15.79em;
@@ -435,7 +441,7 @@ body, html{
 .statistic{
     display:flex;
     flex-direction:column;
-    width:12.93em;
+    width:81.9%;
     height:11.61em;
     background: #fff;
     padding:35px 30px 5px;
@@ -799,6 +805,12 @@ and (max-device-width : 1024px) {
         padding-left:50px;
         padding-right:50px;
     }
+    .right-block{
+        order:-1;
+        margin-bottom:15px;
+        margin-left:0;
+    }
+
 }
 @media only screen 
     and (max-device-width : 767px) {
