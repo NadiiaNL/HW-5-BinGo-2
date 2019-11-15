@@ -1,5 +1,4 @@
 body, html{
-/*    min-width:996px;*/
     font-size:12px;
     font-family: 'Lato', sans-serif;
     font-weight:400;
@@ -598,7 +597,7 @@ body, html{
 /*=============Next right block
 ================================*/
 .next-right-block{
-    position:reltive;
+    position:relative;
 }
 .next-right-title{
     color:#032F48;
@@ -618,8 +617,88 @@ body, html{
     top:0;
     right:-100px;
 }
-/*=============Next right block
+/*=============/Next right block
 ================================*/
+/*=============Suscipit section
+==================================*/
+
+.suscipit{
+    margin-bottom:166px;
+}
+.suscipit-inner{
+    display:flex;
+}
+.suscipit-left-block{
+    width:15.11em;
+    flex-direction:column;
+    padding-top:32px;
+    box-sizing:border-box;
+    position:relative;
+}
+.line-decor::before{
+    content:"";
+    position:absolute;
+    height:7px;
+    background: #151F32;
+}
+.suscipit-left-block::before{
+    width:112px;
+    top:0;
+    right:0;
+}
+.sum{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.6;
+    color: #FF7C14;
+}
+.suscipit-right-block{
+    padding-top:25px;
+    position:relative;
+}
+.suscipit-right-block::before{
+    width:50px;
+    left:-60px;
+    top:37px;
+}
+.suscipit-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #151F32;
+}
+.suscipit-desc{
+    width:190px;
+    margin-bottom:25px;
+}
+.suscipit-link{
+    text-decoration:none;
+    font-weight: 700;
+    display: inline-block;
+    min-height:17px;
+    max-width:71px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #151F32;
+    text-transform: uppercase;
+    position:relative;
+}
+.suscipit-link::after{
+    content:'';
+    position:absolute;
+    width:6px;
+    height:7.5px;
+    bottom:5.5px;
+    right:-9px;
+    background-image:url('../img/suscipit-link-arrow.svg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+    
+}
+
+/*=============/Suscipit section
+==================================*/
 
 
 
