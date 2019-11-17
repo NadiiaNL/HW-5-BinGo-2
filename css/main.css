@@ -809,6 +809,59 @@ body, html{
 /*=============/Programs section
 ===================================*/
 
+/*=============Footer section
+===================================*/
+.footer{
+    padding-bottom:50px;
+}
+.footer-container{
+    display:flex;
+    padding-left:100px;
+    padding-right:100px;
+    line-height:1.7;
+    color:#000;
+}
+.footer-logo{
+    width:24%;
+    margin-right:15px;
+}
+.footer-text{
+    max-width:198px;
+    color:#151F32;
+    margin-top:16px;
+}
+.footer-nav{
+    width:calc(70% - 30px);
+    margin-left:15px;
+    display:flex;
+    width:56%;
+    justify-content:space-between;
+}
+.footer-nav-block{
+    margin-right:15px;
+}
+.footer-nav-block:last-child{
+     margin-right:0;
+}
+.footer-nav-link{
+  text-decoration:none;
+  color:#000;
+}
+.footer-nav-item{
+    margin-bottom:3px;
+}
+.footer-nav-item:first-child{
+    font-weight:700;
+    margin-bottom:24px;
+}
+/*=============/Footer section
+===================================*/
+
+
+
+
+
+
 
 
 
