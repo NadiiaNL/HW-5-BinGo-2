@@ -414,12 +414,6 @@ body, html{
 }
 /*============New section
 =========================*/
-/*
-.new, .next{
-    margin-bottom:166px;
-    height:100vh;
-}
-*/
 .new-inner,.next-inner{
     display:flex;
     flex-wrap:wrap;
@@ -454,7 +448,7 @@ body, html{
     width:81.9%;
     height:11.61em;
     background: #fff;
-    padding:35px 30px 5px;
+    padding:1.25em 1.07em 0.18em;
     box-sizing:border-box;
     margin-top:2.1em;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
@@ -464,21 +458,20 @@ body, html{
     font-size: 0.75em;
     line-height: 1.2;
     color:#151F32;
-    margin-bottom:14px;
+    margin-bottom:0.67em;
 }
 .new-desc{
-    margin-bottom:21px;
+    margin-bottom:1.75em;
     width:178px;
     font-size:12px;
 }
 .turnover{
     display:flex;
     justify-content: space-between;
-    margin-bottom:15px;
+    margin-bottom:0.53em;
     max-width:4.64em;
 }
 .income{
-/*    margin-right:57px;*/
     margin-right:5px;
 }
 .quantity{
@@ -511,33 +504,28 @@ body, html{
     justify-content:space-around;
     align-items: flex-end;
 }
-/*
-.diagram{
-    margin-left:6px; 
-}
-*/
 .diagram-element{
     width:7px;
     background: #EAF0F7;
     margin-left:3px;
 }
-.diagram-element:last-child{
+.diagram-element:first-child{
      margin-left:0; 
 }
 .h27{
-    height:27px;
+    height:0.96em;
 }
 .h40{
-    height:40px;
+    height:1.43em;
 }
 .h64{
-    height:64px;
+    height:2.29em;
 }
 .h80{
-    height:80px;
+    height:2.86em;
 }
 .h108{
-    height:108px;
+    height:3.86em;
 }
 .diagram-element.max-value,
 .diagram-element.med-value{
@@ -589,14 +577,15 @@ body, html{
 /*========/New section
 ======================*/
 .next-left-block{
-    width:15.11em;
+    max-width:15.11em;
+    width:100%;
     height:12.48em;
     box-sizing:border-box;
     background:#032F48 url('../img/next-sect-bg.jpg') center center no-repeat;
     background-size:cover;
-    padding-top:70px;
-    padding-left:30px;
-    padding-bottom:48.76px;
+    padding-top:2.5em;
+    padding-left:1.07em;
+    padding-bottom:1.74em;
     position:relative;
 }
 .generation{
@@ -608,7 +597,7 @@ body, html{
     font-weight: 900;
     font-size: 0.57em;
     line-height: 1.2;
-    margin-bottom:21px;
+    margin-bottom:1.31em;
 }
 .generation-desc{
     width:178px;
@@ -651,6 +640,7 @@ body, html{
 ================================*/
 .next-right-block{
     position:relative;
+    width:35%;
 }
 .next-right-title{
     color:#032F48;
@@ -658,7 +648,7 @@ body, html{
 }
 .next-right-img{
     margin-bottom:19px;
-    width:326px;
+    width:11.64em;
     height:180px;
 }
 .next-right-line{
@@ -680,6 +670,7 @@ body, html{
 }
 .suscipit-inner{
     display:flex;
+    flex-wrap:wrap;
 }
 .suscipit-left-block{
     width:15.11em;
@@ -701,12 +692,12 @@ body, html{
 }
 .sum{
     font-weight: 700;
-    font-size: 46px;
+    font-size: 1.64em;
     line-height: 1.6;
     color: #FF7C14;
 }
 .suscipit-right-block{
-    padding-top:25px;
+    padding-top:0.89em;
     position:relative;
 }
 .suscipit-right-block::before{
@@ -716,7 +707,7 @@ body, html{
 }
 .suscipit-title{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 0.86em;
     line-height: 1.6;
     color: #151F32;
 }
@@ -884,8 +875,8 @@ body, html{
 /*============Media quaries
 =============================*/
 @media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+and (min-device-width : 769px) 
+and (max-device-width : 1060px) {
     .header-inner{
         padding-left:50px;
         padding-right:50px;  
@@ -911,17 +902,16 @@ and (max-device-width : 1024px) {
     .past-right-line{
         right:0;
     }
-/*
-    .right-block{
-        order:-1;
-        margin-bottom:15px;
-        margin-left:0;
+    .new-left{
+        margin-left:0px;
     }
-*/
+    .statistic{
+        padding-top:10px;
+    }
 
 }
 @media only screen 
-    and (max-device-width : 767px) {
+    and (max-device-width : 768px) {
 .header-inner{
         padding:10px; 
     }
@@ -944,7 +934,7 @@ and (max-device-width : 1024px) {
      .icon-equalizer{
         right:0;
     }
-        .title-dark-blue{
+     .title-dark-blue{
         margin-top:15px;
         font-size:50px;
     }
@@ -964,13 +954,74 @@ and (max-device-width : 1024px) {
      .section-period{
         font-size:20px;
     }
+    .left-block{
+        margin-right:5px;
+        }
      .right-block{
         padding-left:30px;
-         
         flex-grow:0;
     }
     .past-right-line{
         right:0;
+    }
+    .new-left{
+        margin-left:0px;
+    }
+    .inner{
+        justify-content:center;
+        }
+    .statistic{
+        padding-top:10px;
+    }
+        .programs-inner{
+        margin-right:5px;
+        width:100%;
+        }
+    .footer-container{
+        padding-left:10px;
+        padding-right:10px;
+    }
+}
+@media only screen 
+    and (max-device-width : 575px){
+    .section-period{
+        font-size:23px;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+    .right-block:not(.suscipit-right-block){
+        padding:0;
+        order:-1;
+        width:100%;
+        margin-bottom:15px;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+/*
+    .line{
+        display:none;
+    }
+*/
+    .past-left{
+        margin-right:0;
+    }
+
+    .left-block:not(.past-left){
+            width:100%;
+        }
+    .left-block:not(.next-left-block){
+        margin-bottom:15px;
+        padding:0;
+        }
+     .inner{
+        justify-content:center;
+        }
+    .next-left-block{
+        margin-bottom: 166px;  
+    }
+    .programs-inner{
+        margin-bottom:15px;
     }
 }
 
@@ -1015,30 +1066,23 @@ and (max-device-width : 320px) {
         padding-left:5px;
         padding-right:5px;
     }
+     .right-block:not(.suscipit-right-block){
+        padding:0;
+        order:-1;
+        width:100%;
+        margin-bottom:15px;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
      .section-period{
         font-size:20px;
         margin-top:15px;
         margin-bottom:15px;
     }
-     .right-block{
-        padding-left:0;
-        order:-1;
-        width:100%;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
+    .footer-container{
+        padding-left:10px;
+        padding-right:10px;
     }
-    .line{
-        display:none;
-    }
-    .past-left{
-        margin-right:0;
-        margin-top:-100px;
-    }
-    .left-block{
-        padding:0;
-    }
-    .programs-inner{
-        margin-bottom:15px;
-    }
+     
 }
