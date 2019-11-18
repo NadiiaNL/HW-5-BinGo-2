@@ -909,6 +909,7 @@ and (max-device-width : 1060px) {
         padding-right:50px;
     }
     .container-white{
+        margin:0 auto;
         padding-left:10px;
         padding-right:10px;
     }
@@ -1042,13 +1043,30 @@ and (max-device-width : 1060px) {
     .programs-inner{
         margin-bottom:15px;
     }
+        .programs-square{
+            height:90%;
+            width:55%;
+        }
      .footer-container{
         padding-left:10px;
         padding-right:10px;
 /*        justify-content:center;*/
     }
 }
-
+@media only screen 
+    and (max-device-width : 425px){
+    .programs-inner{
+        margin-bottom:15px;
+    }
+    .programs-square{
+        height:90%;
+        width:75%;
+    }  
+    .programs-keyboard-img{
+     display:none;
+    }
+    
+}
 @media only screen 
 and (max-device-width : 320px) {
     .header-inner{
