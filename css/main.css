@@ -746,7 +746,7 @@ body, html{
 /*=============Programs section
 ===================================*/
 .programs-inner{
-/*    max-width:29.36em;*/
+    max-width:29.36em;
     width:100%;
     min-height:13.89em;
     height:auto;
@@ -770,6 +770,7 @@ body, html{
 }
 .programs-decor{
     position:relative;
+    max-width:29.36em;
 }
 .programs-decor::before{
     width:12.16%;
@@ -782,7 +783,6 @@ body, html{
     right:-4.3%;
     top:11.05%;
 }
-
 .programs-square{
     width:42.8%;
     height:81.5%;
