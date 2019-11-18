@@ -679,7 +679,7 @@ body, html{
     box-sizing:border-box;
     position:relative;
 }
-.line-decor::before{
+.line-decor::before,.line-decor::after{
     content:"";
     position:absolute;
     height:7px;
@@ -746,36 +746,68 @@ body, html{
 /*=============Programs section
 ===================================*/
 .programs-inner{
-    max-width:29.36em;
+/*    max-width:29.36em;*/
     width:100%;
     min-height:13.89em;
     height:auto;
-    background:#F6BC51 url('../img/programs-bg.png');
+    background:#F6BC51 url('../img/bg-programs.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
     margin-bottom:147px;
     position:relative;
-    display:flex;
-/*    flex-wrap:wrap;*/
+    overflow: hidden;
+    margin-right:0;
 }
-.programs-left-block{
-    padding:120px 0px 89px 40px;
+.programs-triangle{
+    width:97%;
+    height:158%;
+    background: #F1552C;
+    position:absolute;
+    top:-0.5%;
+    left:-44%;
+    transform: skew(55deg);
 }
-.programs-right-block{
-    margin-left: auto;
-    padding:108px 68px 89px 55px;
-   
+.programs-decor{
+    position:relative;
+}
+.programs-decor::before{
+    width:12.16%;
+    left:-12.16%;
+    bottom:11.05%;
+    z-index:3;
+}
+.programs-decor::after{
+    width:4.3%;
+    right:-4.3%;
+    top:11.05%;
+}
+
+.programs-square{
+    width:42.8%;
+    height:81.5%;
+    background: #032F48;
+    position:absolute;
+    bottom:0;
+    right:0;
+    box-sizing:border-box;
+    padding:1.29em 0.5em 3.18em 1.96em;
 }
 .programs-keyboard-img{
-    width:100%;
+    max-width:44%;
     min-height:46.27%;
     height:auto;
+    position:absolute;
+    top:30.9%;
+    left:4.8%;
+    z-index:2;
 }
 .programs-title{
-    margin-bottom:8px;
+    font-size:1em;
+    margin-bottom:0.28em;
 }
 .programs-desc{
+    font-size:0.42em;
     max-width:19.1em;
     margin-bottom:3.16em;
 }
@@ -784,18 +816,6 @@ body, html{
     height:2.88em;
     background:#EFF7FF;
     color:#032F48;
-}
-.programs-right-line{
-    width:38px;
-    position:absolute;
-    right:-38px;
-    top:43px;
-}
-.programs-left-line{
-    width:100px;
-    position:absolute;
-    left:-100px;
-    bottom:43px;
 }
 /*=============/Programs section
 ===================================*/
