@@ -870,28 +870,6 @@ body, html{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============Media quaries
 =============================*/
 @media only screen 
@@ -1050,7 +1028,6 @@ and (max-device-width : 1060px) {
      .footer-container{
         padding-left:10px;
         padding-right:10px;
-/*        justify-content:center;*/
     }
 }
 @media only screen 
@@ -1131,7 +1108,6 @@ and (max-device-width : 320px) {
     .footer-container{
         padding-left:5px;
         padding-right:5px;
-/*        justify-content: center;*/
     }
      
 }
